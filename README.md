@@ -1,4 +1,4 @@
-# Reproduce the manuscript
+# Reproduce the results in simulation and real data analysis
 
 Unzip the repository and open a terminal in the folder containing `reproduce.py`.
 Use 64-bit Python 3.12 (the simulation server used 3.12.7), with CPU execution.
