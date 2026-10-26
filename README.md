@@ -107,8 +107,7 @@ of interface screenshots, the actual server run is documented by:
 
 These machine-readable files retain the complete recorded configuration and
 per-run selections in a searchable form. Match selections to metric records
-using `m`, `scenario`, `error`, `method` and `run_id`. The original shell command
-was not logged; the commands above rerun the shared code with the recorded
+using `m`, `scenario`, `error`, `method` and `run_id`. The commands above rerun the shared code with the recorded
 fitting settings.
 
 ## 6. Other reported metrics
@@ -129,3 +128,33 @@ on a suitable server. Table 1 and Figure 1 are descriptive, not numerical analys
 
 Upload the extracted contents to GitHub, not this ZIP file. The temperature
 data are split into eleven files smaller than 4 MB; `prepare` joins them.
+
+## 7. Code and data locations
+
+### Simulation code
+
+- [simulation/data.py](simulation/data.py): data generation, basis calculations and spatial partitions.
+- [simulation/representation.py](simulation/representation.py) and [train_representation.py](simulation/train_representation.py): GWFRN/SGWFRN architecture, joint fitting, staged validation and prediction.
+- [simulation/native_linear.py](simulation/native_linear.py), [legacy_gwr.py](simulation/legacy_gwr.py) and [native_neural.py](simulation/native_neural.py): benchmark fitting; supporting neural routines are in [neural_methods.py](simulation/neural_methods.py).
+- [simulation/run_simulation.py](simulation/run_simulation.py): independent repetitions and saved predictions. Settings are in [config.json](simulation/config.json).
+
+### Real-data code
+
+- [realdata/real_data.py](realdata/real_data.py): county-year alignment and annual input preparation; [data.py](realdata/data.py) provides the functional basis calculations.
+- [realdata/neural_methods.py](realdata/neural_methods.py) and [local_methods.py](realdata/local_methods.py): the proposed networks and neural benchmarks, and the local regression benchmarks, respectively.
+- [realdata/run_annual_log.py](realdata/run_annual_log.py): annual ten-fold fitting and held-out predictions. Recorded settings are in [config/empirical_protocol.json](config/empirical_protocol.json).
+- [figures/](figures/) draws Figures 2–3; [tools/](tools/) restores inputs, builds tables and compares results.
+
+### Data and supplied results
+
+| Folder | Contents |
+|---|---|
+| [data/input/](data/input/) | Yield and precipitation records, county identifiers and locations, and compressed daily temperature curves. |
+| [data/geography/](data/geography/) | County boundary files for the maps. |
+| [data/predictions/](data/predictions/) | Saved annual held-out predictions used to rebuild Table 5 and Figure 3. |
+| [data/simulation/](data/simulation/) | Server metrics, selected hyperparameters, coverage and run manifest for Tables 2–4. |
+| [reference/](reference/) | Reported table values and PDFs of Figures 2–3 for comparison. |
+
+New computations write to `generated/` and `results/`; these folders are created
+by the commands above. Variable definitions and data sources are in [DATA.md](DATA.md),
+and software sources and licences are in [SOFTWARE.md](SOFTWARE.md).
