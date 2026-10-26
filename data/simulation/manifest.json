@@ -1,0 +1,166 @@
+{
+    "created":  "2026-10-08T15:32:33.310668+00:00",
+    "signature":  "acbd702844d9a73fe2a94ac1c26ce3b6f0e3ff82fd892c89665ee34ead6313db",
+    "source_hashes":  {
+                          "array_utils.py":  "4bfac2df1bd336077a22588671fcc432376eef8aa40614401921a80ea31aa392",
+                          "build_release.py":  "dfff9012f737a6be80daf9d0e5bb560a493d143418b496e93a3ac2b5262e087a",
+                          "data.py":  "b33b9aa95edd9197d2592336d8ad8518c2f0f0821540295a09f52a66e9e16a1f",
+                          "functional_core.py":  "196ed0c103d558390a8847981e47d7a90563b4f8bb9364e6832c32c5b00fc2c2",
+                          "legacy_gwr.py":  "44c4c252f4d288ef5b8f36f3e77471c69279a585c8bdcebbbd4a17552c773065",
+                          "metrics.py":  "051462fe3bbd58fdd6f3452ff23ff94e5da1a51d483453698221a4146b49ce14",
+                          "native_linear.py":  "7f931ba8409c8ce8e71f67b67a9b40c6f8fe19e01d9a179f72dddf833e5c76b8",
+                          "native_neural.py":  "61a7c3efcc0dd3e23efd2cd704d3c835e71a5c1ac9a88143db25d8276224991a",
+                          "network_import.py":  "fd0fa179f5ef542312158558f9716d3607aff335820fe6b62ad90c609991b2e2",
+                          "neural_methods.py":  "69bccb1ef4ff4eac4a3f92193dcc17e51d2ea1a960d328e942a0ae83834e490e",
+                          "report.py":  "620e12fa13be993a07c642964508ae6e5f1210700e0f25532543aeff453be473",
+                          "representation.py":  "8c352a6863b33c88a2128199929fe6f94817e0ccfba8d46442ede6b1f2c50e0a",
+                          "run_simulation.py":  "e206844b35e9513ce5a3f107550b1a39f5577b875f686223b26a0838b685c4ab",
+                          "settings.py":  "8aa43b5a56c8d9dc9b6ebcdd742bfb7c8c7a60386fe883f1f7f45fe29ac67e70",
+                          "test_release.py":  "1d80f238dc3ac8233d1f2bdc7110fa28b21570453e4874c9e0ddd19a6858406e",
+                          "test_target_protocol.py":  "cbe8fb733c5a57286c07e58f1d3ec7f4ae38036ee8ac974b07b975bf5e58c9c6",
+                          "train_representation.py":  "51a6e5b4804e56c0e2d330863d0e09593e12966338d74a4c217eff805ca00f3d",
+                          "upstream\\FastSGWR\\serial_sgwr\\__init__.py":  "106fb904887a541411b0778bbd35fe2a4eeb545cf3aecc38b6571eda81e09423",
+                          "upstream\\FastSGWR\\serial_sgwr\\alpha.py":  "d589fb68c33a1e3712c7f8bf5e76d80cec1d097b55e130b4d14c72ad390794ba",
+                          "upstream\\FastSGWR\\serial_sgwr\\diagnostics.py":  "599e12bf55b36e56ec10456b48f5b40a4ecac8b9ed3e55b09ec26dd446f13d7c",
+                          "upstream\\FastSGWR\\serial_sgwr\\sgwr.py":  "06af766fb3e0bd9885d8b1461af23d6b956b5881eb0e6e7a6aadbc0de491da83",
+                          "upstream\\FastSGWR\\serial_sgwr\\summary.py":  "81bf858a95b63fee5e8c68dcb53cfa031b5cae1c0523afc556e1e2e57d6c5c22",
+                          "upstream\\FuncNN\\R\\daily.R":  "ce08a6e2e5bd89510a3091585ba6bfa1570668424f76edcfe3f4f7ee792f753c",
+                          "upstream\\FuncNN\\R\\fnn.cv.R":  "a0a70c21f11249ac01ed2f51556417bfdd3a0b22a4de685dc44fe9c56aa6ac7a",
+                          "upstream\\FuncNN\\R\\fnn.fit.R":  "3d29ce762a3246a4fdd51b31d0c5aa60420f151320400bb5e7c3b6fb553a9812",
+                          "upstream\\FuncNN\\R\\fnn.fnc.R":  "07e06394e33f8859cd37ef63a0f2aa28d256a7e668ca5f0b73d828b246da3d86",
+                          "upstream\\FuncNN\\R\\fnn.plot.R":  "11f810fea8e2219073fd4871ab8696f0a8b26a3b87c233c836b9cedba4c1f8c0",
+                          "upstream\\FuncNN\\R\\fnn.predict.R":  "f9aa0f8aa613a0c98eff69e3b976dce27aa6c45a13615a9677e5483eae7760ad",
+                          "upstream\\FuncNN\\R\\fnn.tune.R":  "ea43e8c235093e7839650996e64655a87f7b7caa82bc9836cedbdbd7db1cc697",
+                          "upstream\\FuncNN\\R\\PackageFuncNN.R":  "44feb2d9796bd486c4a6dddfa260b2a71202576ecf4bb178eb38e9bfc93ea1cb",
+                          "upstream\\FuncNN\\R\\tecator.R":  "fe8d28f203419a5f7795f25d53aa024fc7e495a420a6f27aa14d965b25e06d18",
+                          "upstream\\gnnwr\\src\\gnnwr\\__init__.py":  "9b3913aa998b083059c9d7078bb73be5d3af34af5458f967329603298e70f687",
+                          "upstream\\gnnwr\\src\\gnnwr\\datasets.py":  "ad99d8087c6225e1cc470c3310d3d8317e5c88872f2ab49a9442ff45f0d392ff",
+                          "upstream\\gnnwr\\src\\gnnwr\\models.py":  "598068abab72a0847bd882eab115543f564dcbede2133ebf918c5fa4b2d19cb6",
+                          "upstream\\gnnwr\\src\\gnnwr\\networks.py":  "4eeb8629c0cf81dfc126b356b2d704ae6df7a8dfe7d3a7d5d283ac683e48b3ec",
+                          "upstream\\gnnwr\\src\\gnnwr\\utils.py":  "759689d0f0bfd4b64e5d8039533ee2e1d430177fef5bf4e41a2c4eeba04c691c"
+                      },
+    "config":  {
+                   "profile":  "production",
+                   "replications":  200,
+                   "run_start":  1000,
+                   "workers":  35,
+                   "lattice_sizes":  [
+                                         30,
+                                         40
+                                     ],
+                   "scenarios":  [
+                                     "linear",
+                                     "nonlinear_kappa0",
+                                     "nonlinear_kappa1"
+                                 ],
+                   "errors":  [
+                                  "normal",
+                                  "student_t",
+                                  "bimodal"
+                              ],
+                   "methods":  [
+                                   "GWR",
+                                   "SGWR",
+                                   "GNNWR",
+                                   "SGNNWR",
+                                   "FNN",
+                                   "GWFRN",
+                                   "SGWFRN"
+                               ],
+                   "analysis_basis_dim":  15,
+                   "first_hidden_dim":  64,
+                   "hidden_dim":  32,
+                   "bandwidths":  [
+                                      0.1,
+                                      0.2,
+                                      0.3,
+                                      0.5
+                                  ],
+                   "similarity_alphas":  [
+                                             0.25,
+                                             0.5,
+                                             0.75
+                                         ],
+                   "smoothness":  [
+                                      0.001,
+                                      0.01,
+                                      0.1
+                                  ],
+                   "relative_head_ridge":  0.1,
+                   "batch_size":  50,
+                   "learning_rate":  0.005,
+                   "validation_interval":  10,
+                   "stages":  [
+                                  {
+                                      "folds":  3,
+                                      "total_epochs":  100,
+                                      "retain":  4
+                                  },
+                                  {
+                                      "folds":  3,
+                                      "total_epochs":  200,
+                                      "retain":  2
+                                  },
+                                  {
+                                      "folds":  5,
+                                      "total_epochs":  300,
+                                      "retain":  1
+                                  }
+                              ],
+                   "baseline_max_epochs":  3000,
+                   "baseline_patience":  100,
+                   "save_final_models":  true,
+                   "save_cv_checkpoints":  false
+               },
+    "environment":  {
+                        "python":  "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+                        "platform":  "Windows-2022Server-10.0.20348-SP0",
+                        "versions":  {
+                                         "numpy":  "2.5.3",
+                                         "scipy":  "1.18.1",
+                                         "pandas":  "3.0.6",
+                                         "torch":  "2.14.0",
+                                         "gnnwr":  "0.1.17"
+                                     },
+                        "detected_logical_cpus":  192,
+                        "device":  "cpu",
+                        "numerical_threads_per_worker":  1,
+                        "native_runtime":  {
+                                               "mgwr":  "2.2.1",
+                                               "gwr_import_checked":  "GWR",
+                                               "libpysal":  "4.15.0",
+                                               "spreg":  "1.9.1",
+                                               "spglm":  "1.1.0",
+                                               "scikit-learn":  "1.9.1"
+                                           }
+                    },
+    "started":  "2026-10-08T15:32:33.313671+00:00",
+    "status":  "completed",
+    "timing_definition":  "method wall seconds: preprocessing+tuning+refit+test prediction; excludes DGP/queue/metrics/report",
+    "validation_use":  "checkpoint/candidate selection only; no validation or test response gradients",
+    "aggregation":  {
+                        "run_id_ranges":  [
+                                              [
+                                                  1000,
+                                                  1099
+                                              ],
+                                              [
+                                                  1100,
+                                                  1199
+                                              ]
+                                          ],
+                        "workers_per_shard":  35,
+                        "max_total_workers":  70,
+                        "shared_outputs":  "Per-replication metrics, selected parameters, coverage and aggregate summaries",
+                        "not_included":  "Individual test-prediction arrays, training logs and fitted models from server shards"
+                    },
+    "coverage":  {
+                     "complete":  true,
+                     "completed_records":  25200,
+                     "expected_records":  25200,
+                     "incomplete_cells":  0
+                 },
+    "public_copy_note":  "Machine-specific shard paths have been removed. Source hashes describe the original server archive; numerical outputs are unchanged.",
+    "original_manifest_sha256":  "a6520cf493d69a430281f7fe720d2a104e24b6c805aaa6a784e2da35fc569fdc",
+    "supplied_code_zip_sha256":  "f33e0b2c891157676cc5f0eb74dccfe74a3a9e816557f6b8c86887897ed8c0b6"
+}
