@@ -1,0 +1,42 @@
+{
+  "archive_sha256": "f33e0b2c891157676cc5f0eb74dccfe74a3a9e816557f6b8c86887897ed8c0b6",
+  "original_files_sha256": {
+    "array_utils.py": "4bfac2df1bd336077a22588671fcc432376eef8aa40614401921a80ea31aa392",
+    "data.py": "b33b9aa95edd9197d2592336d8ad8518c2f0f0821540295a09f52a66e9e16a1f",
+    "functional_core.py": "196ed0c103d558390a8847981e47d7a90563b4f8bb9364e6832c32c5b00fc2c2",
+    "legacy_gwr.py": "44c4c252f4d288ef5b8f36f3e77471c69279a585c8bdcebbbd4a17552c773065",
+    "metrics.py": "051462fe3bbd58fdd6f3452ff23ff94e5da1a51d483453698221a4146b49ce14",
+    "native_linear.py": "7f931ba8409c8ce8e71f67b67a9b40c6f8fe19e01d9a179f72dddf833e5c76b8",
+    "native_neural.py": "61a7c3efcc0dd3e23efd2cd704d3c835e71a5c1ac9a88143db25d8276224991a",
+    "network_import.py": "fd0fa179f5ef542312158558f9716d3607aff335820fe6b62ad90c609991b2e2",
+    "neural_methods.py": "69bccb1ef4ff4eac4a3f92193dcc17e51d2ea1a960d328e942a0ae83834e490e",
+    "report.py": "620e12fa13be993a07c642964508ae6e5f1210700e0f25532543aeff453be473",
+    "representation.py": "8c352a6863b33c88a2128199929fe6f94817e0ccfba8d46442ede6b1f2c50e0a",
+    "run_simulation.py": "e206844b35e9513ce5a3f107550b1a39f5577b875f686223b26a0838b685c4ab",
+    "settings.py": "8aa43b5a56c8d9dc9b6ebcdd742bfb7c8c7a60386fe883f1f7f45fe29ac67e70",
+    "train_representation.py": "51a6e5b4804e56c0e2d330863d0e09593e12966338d74a4c217eff805ca00f3d",
+    "config.json": "0fa35861389d41bbf018daac99375a16dfdd633a44c55d3015cf5e7b2fa91dcc",
+    "upstream/FastSGWR/LICENSE.txt": "2812d20bd6765ea84fbaf13b73f153b4c37dcd4f8176d947f10362884241164e",
+    "upstream/FastSGWR/serial_sgwr/alpha.py": "d589fb68c33a1e3712c7f8bf5e76d80cec1d097b55e130b4d14c72ad390794ba",
+    "upstream/FuncNN/DESCRIPTION": "a45d447dc03e558db9b7da00a495149e449b9b0a35220512602e8f1ab71db894",
+    "upstream/FuncNN/R/fnn.fit.R": "3d29ce762a3246a4fdd51b31d0c5aa60420f151320400bb5e7c3b6fb553a9812",
+    "upstream/gnnwr/LICENSE": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+    "upstream/gnnwr/src/gnnwr/datasets.py": "ad99d8087c6225e1cc470c3310d3d8317e5c88872f2ab49a9442ff45f0d392ff",
+    "upstream/gnnwr/src/gnnwr/models.py": "598068abab72a0847bd882eab115543f564dcbede2133ebf918c5fa4b2d19cb6",
+    "upstream/gnnwr/src/gnnwr/networks.py": "4eeb8629c0cf81dfc126b356b2d704ae6df7a8dfe7d3a7d5d283ac683e48b3ec",
+    "upstream/gnnwr/src/gnnwr/utils.py": "759689d0f0bfd4b64e5d8039533ee2e1d430177fef5bf4e41a2c4eeba04c691c"
+  },
+  "source_description": "Runtime files copied from the result-generating server code archive.",
+  "display_alias": {
+    "SGNNWR": "SANNWR"
+  },
+  "adaptations": [
+    {
+      "file": "run_simulation.py",
+      "change": "Store prediction file paths relative to the run output folder; use forward slashes in source-hash keys. No estimator, seed, grid or training-budget changes."
+    }
+  ],
+  "public_adapted_files_sha256": {
+    "run_simulation.py": "e7116caaf2019585169b5740c41c9c9f7c4e5676abb2f46081517458713cd6f8"
+  }
+}
